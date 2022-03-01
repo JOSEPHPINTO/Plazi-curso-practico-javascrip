@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgb(21, 207, 21);
+    padding: 10px; 
+    border-bottom: 3px solid black;
+}
+h1,
+header p {
+color: rgb(209, 15, 15);
+text-align: center;
+
+}
+/* #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+.figuras{
+    padding: 10px;
+    color: black;
+    width: auto;
+    height: auto;
+    background: rgb(120, 120, 219);
+}
+#cuadrado{
+    color: black;
+    border-bottom:solid 2px black ;
+
+}
+#rectangulo{
+    color: black;
+    border-bottom:solid 2px black ;
+}
+#triangulo{
+    color: black;
+    border-bottom:solid 2px black ;
+}
+#circulo{
+    color: black;
+    
+    
+}
+label{
+    display: inline-block;
+    margin: 8px;
+    margin-right: 40px;
+}
+input{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+button{
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(21, 207, 21);
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    margin: 10px 10px 20px 15px;
+
+}
+h2 {
+    padding-bottom: 15px;
+}
+@media (min-width: 880px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        
+    }
+    .figuras{
+        height: 300px;
+        
+    }
+    label{
+        display: inline-block;
+        margin: 8px;
+        margin-right: 20px;
+    }
+    button{
+        margin-right: 15px ;
+        width: 150px;
+    }
+    #rectangulo{
+        border-left:solid 2px black ; 
+    }
+    #circulo{
+        border-left:solid 2px black ;
+    }
+    #trianguloIsoseles{
+        border-left:solid 2px black ;
+    }
+
+}
+/* function calculoAltura(base,lado1){
+    const altura = Math.sqrt((base **2 ) - (lado1**2))
+    return altura
+}
+ */
