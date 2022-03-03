@@ -18,18 +18,29 @@ header p{
     text-align: center;
     margin-bottom: 8px;
 }
+h2{
+    text-align: center;
+    color: orange;
+    background-color: bisque;
+    padding: 8px;
+}
 .container{
     display: grid;
     place-items: center;
-    
-    
+    grid-template-columns: 1fr ; 
+    background-color: bisque;
+    height: auto;    
 }
-h2{
-    margin: 16px;
+div{
+    display: grid;
+    place-items: center; 
+}
+#div4 {
+margin-bottom: 20px;
 }
 .form {
     display: block;
-    width: 300px;
+    width: 280px;
     height: auto;
     padding-top: 8px;
     border: solid 2px darkblue;
@@ -38,20 +49,51 @@ h2{
 }
  label{
      display: block;
-     margin: 8px 16px;
+     margin: 4px 16px;
 } 
 input{
-    border-radius: 4px;
+    border-radius: 10%;
     margin-left: 20px;
 
 }
 button{
- width: 200px;
- margin-top: 16px;
+ width: 250px;
+ margin-top: 8px;
  background-color: blue;
  color: aliceblue;
- margin-left: 15%;
+ margin-left: 15px;
+ border-radius: 8px;
 }
 .container form p {
     margin: 8px 0 10px 16px ;
+}
+h3 {
+    margin: 20px;
+}
+@media (min-width: 750px) {
+.container{  
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr; 
+} 
+.form {
+    display: block;
+    width: 310px;
+    height: auto;
+    padding-top: 8px;
+    background-color: orange;
+    border-radius: 5px;
+}
+div{
+width: 377.5px;
+}
+#div1 h3 {
+    margin:20px 70px  20px 70px;
+    
+}
+input{
+   
+    margin-left: 20px;
+
+}
 }

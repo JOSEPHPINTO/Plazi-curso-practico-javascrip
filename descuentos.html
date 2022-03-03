@@ -17,21 +17,80 @@
     </p>
 
     </header>
+    <h2>Calcula el precio a pagar de tus productos con descuento</h2> 
     <section class="container">
-       <h2>Calcula el precio a pagar de tus productos con descuento</h2> 
-       <form action="" class="form">
+        
+        <div id="div1">
+            <h3>
+                Ejercicio de la clase.
+                </h3>
+            <form action="" class="form">
 
-           <label for="InputPrice">Escribe el precio de tu producto </label>
-           <input id="InputPrice" type="number">
+                <label for="InputPrice">Escribe el precio de tu producto </label>
+                <input id="InputPrice" type="number">
+                
+                <label for="InputDiscount">Escribe el Descuento de tu producto </label>
+                <input id="InputDiscount" type="number">
 
-           <label for="InputDiscount">Escribe el Descuento de tu producto </label>
-           <input id="InputDiscount" type="number">
+                <button type="button" onclick="onClickButtonPriceDiscount()">
+                    Calcular el precio con descuento
+                </button>
+                <p id="ResultP"></p>
+            </form>
+        </div>
+       <div id="div2">
+            <h3>
+            Calculo de descuento con cupon "RETO solucion 1 "
+            </h3>
+            <form action="" class="form">
 
-           <button type="button" onclick="onClickButtonPriceDiscount()">
+                <label for="InputPrice1">Escribe el precio de tu producto </label>
+                <input id="InputPrice1" type="number">
+                
+                <label for="InputCoupon1">Escribe el cupon de descuento de tu producto </label>
+                <input id="InputCoupon1" type="text">
+                
+                <button type="button" onclick="onClickButtonPriceDiscountCoupon1()">
+                Calcular el precio con descuento
+                </button>
+                <p id="ResultCoupon1"></p>
+            </form>
+       </div>
+       <div id="div3">
+            <h3>
+                 Calculo de descuento con cupon "RETO solucion 2
+            </h3>
+            <form action="" class="form">
+
+            <label for="InputPrice2">Escribe el precio de tu producto </label>
+            <input id="InputPrice2" type="number">
+            
+            <label for="InputCoupon2">Escribe el cupon de descuento de tu producto </label>
+            <input id="InputCoupon2" type="text">
+            
+            <button type="button" onclick="onClickButtonPriceDiscountCoupon2()">
             Calcular el precio con descuento
-           </button>
-           <p id="ResultP"></p>
-       </form>
+            </button>
+            <p id="ResultCoupon2"></p>
+            </form>
+       </div>
+        <div id="div4">
+            <h3> Calculo de descuento con cupon "RETO solucion 3 </h3>
+            <form action="" class="form">
+
+                <label for="InputPrice3">Escribe el precio de tu producto </label>
+                <input id="InputPrice3" type="number">
+                
+                <label for="InputCoupon3">Escribe el cupon de descuento de tu producto </label>
+                <input id="InputCoupon3" type="text">
+                
+                <button type="button" onclick="onClickButtonPriceDiscountCoupon3()">
+                Calcular el precio con descuento
+                </button>
+                <p id="ResultCoupon3"></p>
+            </form>
+        </div>
+    
     </section>
 
     
