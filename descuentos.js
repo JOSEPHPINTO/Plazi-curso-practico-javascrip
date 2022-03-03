@@ -28,3 +28,9 @@ function onClickButtonPriceDiscount(){
     const resultP = document.getElementById("ResultP")
     resultP.innerText = "El precio con descuento es: $ " + precioConDescuento;
 }
+
+const coupons = [
+    "JuanDC_es_Batman",
+    "pero_no_le_digas_a_nadie",
+    "es_un_secreto",
+];
