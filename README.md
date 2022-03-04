@@ -18,3 +18,11 @@
 - Tercer paso : crear funciones 
 - Cuarto paso : integrar JS con HTML y CSS 
 - Quinto paso : realizar los retos dejados en clase 
+
+## Taller # 3: Promedio, media, moda 
+
+- Primer paso: definir las fórmulas 
+- Segundo paso: implementar las formulas en JavaScrip
+- Tercer paso : crear funciones 
+- Cuarto paso : integrar JS con HTML y CSS 
+- Quinto paso : realizar los retos dejados en clase 
